@@ -2,13 +2,13 @@
   "name": "factor",
   "version": "0.0.1",
   "description": "A set of tools to do factor-related explorations.",
-  "main": "index.js",
+  "main": "factor.js",
   "dependencies": {
     "yargs": "^5.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "start": "node factor.js"
   },
   "keywords": [
     "factoring"
