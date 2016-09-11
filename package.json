@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node factor.js"
+    "start": "node factor.js -- help"
   },
   "keywords": [
     "factoring"
