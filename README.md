@@ -1,4 +1,7 @@
 ```
+> npm i
+> npm start
+
 Usage: factor.js <command> [options]
 
 Commands:
@@ -10,4 +13,8 @@ Options:
 
 Examples:
   factor.js prime 20  Show prime numbers up to 20
+
+> npm run factor -- prime 10
+
+2 3 5 7
 ```

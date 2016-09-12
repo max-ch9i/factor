@@ -4,11 +4,12 @@
   "description": "A set of tools to do factor-related explorations.",
   "main": "factor.js",
   "dependencies": {
-    "yargs": "^5.0.0"
+    "yargs": "^5.0.0",
+    "flow-remove-types": "^1.0.4"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "node factor.js -- help"
+    "start": "flow-node factor -- help",
+    "factor": "flow-node factor"
   },
   "keywords": [
     "factoring"
